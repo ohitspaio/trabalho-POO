@@ -8,123 +8,123 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trabalho_POO">
-				<Option output="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/trabalho_POO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug"/>
+				<Option output="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/trabalho_POO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/../inc"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/../inc"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_POO"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_POO"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trabalho_POO/fast">
-				<Option output="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/trabalho_POO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug"/>
+				<Option output="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/trabalho_POO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/../inc"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/../inc"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.5.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_POO/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_POO/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Public/Documents/TP-POO/trabalho-POO/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/edificios.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/edificios.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/edificios.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/edificios.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/ilha.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/ilha.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/ilha.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/ilha.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/libs.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/libs.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/main.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/main.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/menus.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/menus.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/menus.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/menus.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/trabalhadores.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/trabalhadores.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/utils.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/utils.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/zonas.cpp">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/zonas.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/zonas.h">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/zonas.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/CMakeLists.txt">
+		<Unit filename="C:/Users/Public/Documents/TP-POO/trabalho-POO/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src
+CMAKE_SOURCE_DIR = C:\Users\Public\Documents\TP-POO\trabalho-POO\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/trabalho_POO.dir/depend.make
@@ -68,100 +68,100 @@ include CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/edificios.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/edificios.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/edificios.cpp.obj: ../edificios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trabalho_POO.dir/edificios.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\edificios.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\edificios.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trabalho_POO.dir/edificios.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\edificios.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\edificios.cpp
 
 CMakeFiles/trabalho_POO.dir/edificios.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/edificios.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\edificios.cpp > CMakeFiles\trabalho_POO.dir\edificios.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\edificios.cpp > CMakeFiles\trabalho_POO.dir\edificios.cpp.i
 
 CMakeFiles/trabalho_POO.dir/edificios.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/edificios.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\edificios.cpp -o CMakeFiles\trabalho_POO.dir\edificios.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\edificios.cpp -o CMakeFiles\trabalho_POO.dir\edificios.cpp.s
 
 CMakeFiles/trabalho_POO.dir/menus.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/menus.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/menus.cpp.obj: ../menus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho_POO.dir/menus.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\menus.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\menus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho_POO.dir/menus.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\menus.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\menus.cpp
 
 CMakeFiles/trabalho_POO.dir/menus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/menus.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\menus.cpp > CMakeFiles\trabalho_POO.dir\menus.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\menus.cpp > CMakeFiles\trabalho_POO.dir\menus.cpp.i
 
 CMakeFiles/trabalho_POO.dir/menus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/menus.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\menus.cpp -o CMakeFiles\trabalho_POO.dir\menus.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\menus.cpp -o CMakeFiles\trabalho_POO.dir\menus.cpp.s
 
 CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj: ../trabalhadores.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\trabalhadores.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\trabalhadores.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\trabalhadores.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\trabalhadores.cpp
 
 CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\trabalhadores.cpp > CMakeFiles\trabalho_POO.dir\trabalhadores.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\trabalhadores.cpp > CMakeFiles\trabalho_POO.dir\trabalhadores.cpp.i
 
 CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\trabalhadores.cpp -o CMakeFiles\trabalho_POO.dir\trabalhadores.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\trabalhadores.cpp -o CMakeFiles\trabalho_POO.dir\trabalhadores.cpp.s
 
 CMakeFiles/trabalho_POO.dir/main.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/main.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trabalho_POO.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\main.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trabalho_POO.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\main.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\main.cpp
 
 CMakeFiles/trabalho_POO.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\main.cpp > CMakeFiles\trabalho_POO.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\main.cpp > CMakeFiles\trabalho_POO.dir\main.cpp.i
 
 CMakeFiles/trabalho_POO.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\main.cpp -o CMakeFiles\trabalho_POO.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\main.cpp -o CMakeFiles\trabalho_POO.dir\main.cpp.s
 
 CMakeFiles/trabalho_POO.dir/utils.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/utils.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/utils.cpp.obj: ../utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trabalho_POO.dir/utils.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\utils.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trabalho_POO.dir/utils.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\utils.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\utils.cpp
 
 CMakeFiles/trabalho_POO.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/utils.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\utils.cpp > CMakeFiles\trabalho_POO.dir\utils.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\utils.cpp > CMakeFiles\trabalho_POO.dir\utils.cpp.i
 
 CMakeFiles/trabalho_POO.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/utils.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\utils.cpp -o CMakeFiles\trabalho_POO.dir\utils.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\utils.cpp -o CMakeFiles\trabalho_POO.dir\utils.cpp.s
 
 CMakeFiles/trabalho_POO.dir/zonas.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/zonas.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/zonas.cpp.obj: ../zonas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/trabalho_POO.dir/zonas.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\zonas.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\zonas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/trabalho_POO.dir/zonas.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\zonas.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\zonas.cpp
 
 CMakeFiles/trabalho_POO.dir/zonas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/zonas.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\zonas.cpp > CMakeFiles\trabalho_POO.dir\zonas.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\zonas.cpp > CMakeFiles\trabalho_POO.dir\zonas.cpp.i
 
 CMakeFiles/trabalho_POO.dir/zonas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/zonas.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\zonas.cpp -o CMakeFiles\trabalho_POO.dir\zonas.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\zonas.cpp -o CMakeFiles\trabalho_POO.dir\zonas.cpp.s
 
 CMakeFiles/trabalho_POO.dir/ilha.cpp.obj: CMakeFiles/trabalho_POO.dir/flags.make
 CMakeFiles/trabalho_POO.dir/ilha.cpp.obj: CMakeFiles/trabalho_POO.dir/includes_CXX.rsp
 CMakeFiles/trabalho_POO.dir/ilha.cpp.obj: ../ilha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trabalho_POO.dir/ilha.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\ilha.cpp.obj -c C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\ilha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trabalho_POO.dir/ilha.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho_POO.dir\ilha.cpp.obj -c C:\Users\Public\Documents\TP-POO\trabalho-POO\src\ilha.cpp
 
 CMakeFiles/trabalho_POO.dir/ilha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_POO.dir/ilha.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\ilha.cpp > CMakeFiles\trabalho_POO.dir\ilha.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Public\Documents\TP-POO\trabalho-POO\src\ilha.cpp > CMakeFiles\trabalho_POO.dir\ilha.cpp.i
 
 CMakeFiles/trabalho_POO.dir/ilha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_POO.dir/ilha.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\ilha.cpp -o CMakeFiles\trabalho_POO.dir\ilha.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Public\Documents\TP-POO\trabalho-POO\src\ilha.cpp -o CMakeFiles\trabalho_POO.dir\ilha.cpp.s
 
 # Object files for target trabalho_POO
 trabalho_POO_OBJECTS = \
@@ -187,7 +187,7 @@ trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/build.make
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/linklibs.rsp
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/objects1.rsp
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable trabalho_POO.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable trabalho_POO.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\trabalho_POO.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +199,6 @@ CMakeFiles/trabalho_POO.dir/clean:
 .PHONY : CMakeFiles/trabalho_POO.dir/clean
 
 CMakeFiles/trabalho_POO.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug C:\Users\Utilizador\Documents\GitHub\trabalho-POO\src\cmake-build-debug\CMakeFiles\trabalho_POO.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Public\Documents\TP-POO\trabalho-POO\src C:\Users\Public\Documents\TP-POO\trabalho-POO\src C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug C:\Users\Public\Documents\TP-POO\trabalho-POO\src\cmake-build-debug\CMakeFiles\trabalho_POO.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trabalho_POO.dir/depend
 

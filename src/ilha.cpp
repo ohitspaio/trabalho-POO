@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //
 // Created by Utilizador on 11/01/2022.
 //
@@ -5,6 +6,7 @@
 #include "ilha.h"
 
 using namespace std;
+
 
 void Ilha::geraIlha(){
     srand(time(NULL));
@@ -121,3 +123,15 @@ void Ilha::mostraIlha(Zona **zonas, int linhas, int colunas){
 
 }
 
+=======
+
+#include <iostream>
+#include "../inc/ilha.h"
+#include "../inc/edificio.h"
+#include "../inc/trabalhadores.h"
+
+
+void ilha::criailha(){
+
+}
+>>>>>>> Stashed changes

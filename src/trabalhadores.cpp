@@ -2,4 +2,8 @@
 // Created by José Martins on 11/21/2021.
 //
 
-#include "../inc/trabalhadores.h"
+#include "trabalhadores.h"
+string Trabalhador::getSigla() {
+
+}
+

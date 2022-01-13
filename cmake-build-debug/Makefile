@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/cIlha.obj: src/cIlha.cpp.obj
-.PHONY : src/cIlha.obj
-
-# target to build an object file
-src/cIlha.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/cIlha.cpp.obj
-.PHONY : src/cIlha.cpp.obj
-
-src/cIlha.i: src/cIlha.cpp.i
-.PHONY : src/cIlha.i
-
-# target to preprocess a source file
-src/cIlha.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/cIlha.cpp.i
-.PHONY : src/cIlha.cpp.i
-
-src/cIlha.s: src/cIlha.cpp.s
-.PHONY : src/cIlha.s
-
-# target to generate assembly for a file
-src/cIlha.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/cIlha.cpp.s
-.PHONY : src/cIlha.cpp.s
-
 src/edificios.obj: src/edificios.cpp.obj
 .PHONY : src/edificios.obj
 
@@ -272,6 +248,30 @@ src/trabalhadores.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/trabalhadores.cpp.s
 .PHONY : src/trabalhadores.cpp.s
 
+src/utils.obj: src/utils.cpp.obj
+.PHONY : src/utils.obj
+
+# target to build an object file
+src/utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/utils.cpp.obj
+.PHONY : src/utils.cpp.obj
+
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
+
 src/zonas.obj: src/zonas.cpp.obj
 .PHONY : src/zonas.obj
 
@@ -308,9 +308,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/cIlha.obj
-	@echo ... src/cIlha.i
-	@echo ... src/cIlha.s
 	@echo ... src/edificios.obj
 	@echo ... src/edificios.i
 	@echo ... src/edificios.s
@@ -323,6 +320,9 @@ help:
 	@echo ... src/trabalhadores.obj
 	@echo ... src/trabalhadores.i
 	@echo ... src/trabalhadores.s
+	@echo ... src/utils.obj
+	@echo ... src/utils.i
+	@echo ... src/utils.s
 	@echo ... src/zonas.obj
 	@echo ... src/zonas.i
 	@echo ... src/zonas.s

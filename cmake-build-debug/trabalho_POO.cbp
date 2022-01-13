@@ -82,31 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/inc/edificios.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/inc/ilha.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/inc/menus.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/inc/trabalhadores.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/inc/zonas.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/main.cpp">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cIlha.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/edificios.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/edificios.h">
+			<Option target="trabalho_POO"/>
+		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/ilha.cpp">
+			<Option target="trabalho_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/ilha.h">
+			<Option target="trabalho_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/libs.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/menus.cpp">
@@ -115,7 +106,19 @@
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.h">
+			<Option target="trabalho_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.cpp">
+			<Option target="trabalho_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.h">
+			<Option target="trabalho_POO"/>
+		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/zonas.cpp">
+			<Option target="trabalho_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/zonas.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/CMakeLists.txt">

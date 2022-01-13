@@ -12,5 +12,5 @@
 #include <iostream>
 #include <ctime>
 #include <algorithm>
-#include "utils.h"
+
 #endif //TRABALHO_POO_LIBS_H

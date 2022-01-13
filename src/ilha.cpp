@@ -66,7 +66,7 @@ void Ilha::geraIlha(){
 
 }
 
-void mostraIlha(Zona **zonas, int linhas, int colunas){
+void Ilha::mostraIlha(Zona **zonas, int linhas, int colunas){
 
     for(int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
@@ -76,22 +76,47 @@ void mostraIlha(Zona **zonas, int linhas, int colunas){
             }
         }
         cout << endl;
-        for(int z = 0; z < 4; z++){
-            for(int k = 0; k < colunas; k++){
-                if(z == 0) cout << "|" << zonas[i][k].getZona();
-                else if (z == 1){
+        for(int z = 0; z < 4; z++) {
+            for (int k = 0; k < colunas; k++) {
+                if (z == 0) cout << "|" << zonas[i][k].getZona();
+                else if (z == 1) {
                     string edificio = zonas[i][k].getEdificio();
                     string edificioTemp;
-                    if(edificio == "minaf") edificioTemp = "mnF";
-                    else if(edificio == "minac") edificioTemp = "mnC";
-                    else if(edificio == "central") edificioTemp = "ele";
-                    else if(edificio == "bat") edificioTemp = "bat";
-                    else if(edificio == "fund") edificioTemp = "fun";
+                    if (edificio == "minaf") edificioTemp = "mnF";
+                    else if (edificio == "minac") edificioTemp = "mnC";
+                    else if (edificio == "central") edificioTemp = "ele";
+                    else if (edificio == "bat") edificioTemp = "bat";
+                    else if (edificio == "fund") edificioTemp = "fun";
                     cout << "|" << edificioTemp;
+                } else if (z == 2) cout << "|" << zonas[i][k].getSiglaTrabalhadores();
+                else if (z == 3) cout << "|" << zonas[i][k].getNrTrabalhadores();
+                else cout << "|       ";
+                if (k == (colunas - 1)) {
+                    cout << "|";
                 }
-                else if (z == 2) cout << "|" <<
+                cout << endl;
+
             }
         }
+        for(int j = 0; j < colunas; j++){
+            cout << "*-------";
+            if(j == (colunas - 1)){
+                cout <<  "*";
+            }
+        }
+
+        cout << endl;
+        cout << "DIA N/A" << endl;
+        cout << "Quantidade de Recursos: N/A" << endl;
+        int nTrab = 0;
+        for(int i = 0; i < linhas; i++){
+            for(int j = 0; j < colunas; j++){
+                nTrab += zonas[i][j].getNrTrabalhadores();
+            }
+        }
+        cout << "Numero de Trabalhadores: " << nTrab << endl;
+        cout << endl << endl;
+
     }
 
 }

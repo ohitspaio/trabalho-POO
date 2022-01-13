@@ -22,10 +22,14 @@ string Zona::getEdificio(){
 string Zona::getSiglaTrabalhadores() {
     string sigla = "";
    for(int i = 0; i < trabalhadores.size(); i++){
-       sigla += trabalhadores[i].getSigla();
+       sigla += trabalhadores[i]->getSigla();
    }
 }
 
 void Zona::addTrabalhadores(Trabalhador* newtrabalhador){
     trabalhadores.push_back(newtrabalhador);
+}
+
+int Zona::getNrTrabalhadores() {
+    return trabalhadores.size();
 }

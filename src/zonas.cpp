@@ -17,6 +17,8 @@ void Zona::setEdificio(Edificio edificio){
     this->edificio->tipoEdificio = edificio.tipoEdificio;
 }
 string Zona::getEdificio(){
+    if(edificio== nullptr)
+        return "nulo";
     return edificio->tipoEdificio;
 }
 string Zona::getSiglaTrabalhadores() {
@@ -24,6 +26,7 @@ string Zona::getSiglaTrabalhadores() {
    for(int i = 0; i < trabalhadores.size(); i++){
        sigla += trabalhadores[i]->getSigla();
    }
+   return sigla;
 }
 
 void Zona::addTrabalhadores(Trabalhador* newtrabalhador){

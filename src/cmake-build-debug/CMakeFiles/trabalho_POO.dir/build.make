@@ -166,10 +166,8 @@ CMakeFiles/trabalho_POO.dir/ilha.cpp.s: cmake_force
 # Object files for target trabalho_POO
 trabalho_POO_OBJECTS = \
 "CMakeFiles/trabalho_POO.dir/edificios.cpp.obj" \
-"CMakeFiles/trabalho_POO.dir/menus.cpp.obj" \
 "CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj" \
 "CMakeFiles/trabalho_POO.dir/main.cpp.obj" \
-"CMakeFiles/trabalho_POO.dir/utils.cpp.obj" \
 "CMakeFiles/trabalho_POO.dir/zonas.cpp.obj" \
 "CMakeFiles/trabalho_POO.dir/ilha.cpp.obj"
 
@@ -177,10 +175,8 @@ trabalho_POO_OBJECTS = \
 trabalho_POO_EXTERNAL_OBJECTS =
 
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/edificios.cpp.obj
-trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/menus.cpp.obj
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/main.cpp.obj
-trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/utils.cpp.obj
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/zonas.cpp.obj
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/ilha.cpp.obj
 trabalho_POO.exe: CMakeFiles/trabalho_POO.dir/build.make

@@ -4,3 +4,9 @@
 
 #include "edificios.h"
 
+/* void Edificio::setTipoEdificio(string tipoEdificio){
+    this->tipoEdificio = tipoEdificio;
+}
+string Edificio::getTipoEdificio(){
+    return tipoEdificio;
+} */

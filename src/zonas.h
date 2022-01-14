@@ -5,18 +5,19 @@
 #ifndef TRABALHO_POO_ZONAS_H
 #define TRABALHO_POO_ZONAS_H
 #include "libs.h"
-#include "ilha.h"
 #include "edificios.h"
 #include "trabalhadores.h"
 
 using namespace std;
 
-class Zona : public Ilha{
+class Zona{
+    private:
     string tipoZona;
     int nrTrabalhadores;
-    Edificio *edificio;
+    Edificio* edificio;
     vector<Trabalhador*> trabalhadores;
     public:
+    Zona(){};
     void setZona(string tipoZona);
     string getZona();
     void setEdificio(Edificio edificio);

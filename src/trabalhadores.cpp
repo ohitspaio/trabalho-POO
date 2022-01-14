@@ -5,13 +5,13 @@
 #include "trabalhadores.h"
 string Trabalhador::getSigla() {
     string letra = "";
-    if(Emprego == "Operario"){
+    if(emprego == "Operario"){
         letra += "O";
     }
-    else if(Emprego == "Mineiro"){
+    else if(emprego == "Mineiro"){
         letra += "M";
     }
-    else if(Emprego == "Lenhador"){
+    else if(emprego == "Lenhador"){
         letra += "L";
     }
     return letra;

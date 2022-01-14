@@ -10,7 +10,7 @@
 #include <istream>
 #include <fstream>
 #include <iostream>
-#include <ctime>
+#include <random>
 #include <algorithm>
 
 #endif //TRABALHO_POO_LIBS_H

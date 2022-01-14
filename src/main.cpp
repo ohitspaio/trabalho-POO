@@ -4,13 +4,16 @@
 
 #include "libs.h"
 #include "ilha.h"
-#include "zonas.h"
+
 using namespace std;
 
 int main()
 {
-    int linhas, colunas;
-    Ilha** nIlha = new Ilha*[]
-    bool flag = false;
+    Ilha* nIlha = new Ilha;
+
+    nIlha->geraIlha();
+
+   nIlha->mostraIlha(nIlha->getZona(), nIlha->getLinha(), nIlha->getColuna() );
+
     return 0;
-};
+}

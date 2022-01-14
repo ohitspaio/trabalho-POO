@@ -11,9 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/edificios.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/edificios.cpp.obj"
   "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/ilha.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/ilha.cpp.obj"
   "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/main.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/main.cpp.obj"
-  "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/menus.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/menus.cpp.obj"
   "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.obj"
-  "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/utils.cpp.obj"
   "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/zonas.cpp" "C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/cmake-build-debug/CMakeFiles/trabalho_POO.dir/zonas.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

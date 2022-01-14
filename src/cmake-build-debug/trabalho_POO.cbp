@@ -100,22 +100,10 @@
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/main.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/menus.cpp">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/menus.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.cpp">
 			<Option target="trabalho_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/trabalhadores.h">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.cpp">
-			<Option target="trabalho_POO"/>
-		</Unit>
-		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/utils.h">
 			<Option target="trabalho_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/Utilizador/Documents/GitHub/trabalho-POO/src/zonas.cpp">

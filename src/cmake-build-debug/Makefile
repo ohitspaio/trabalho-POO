@@ -200,30 +200,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-menus.obj: menus.cpp.obj
-.PHONY : menus.obj
-
-# target to build an object file
-menus.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/menus.cpp.obj
-.PHONY : menus.cpp.obj
-
-menus.i: menus.cpp.i
-.PHONY : menus.i
-
-# target to preprocess a source file
-menus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/menus.cpp.i
-.PHONY : menus.cpp.i
-
-menus.s: menus.cpp.s
-.PHONY : menus.s
-
-# target to generate assembly for a file
-menus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/menus.cpp.s
-.PHONY : menus.cpp.s
-
 trabalhadores.obj: trabalhadores.cpp.obj
 .PHONY : trabalhadores.obj
 
@@ -247,30 +223,6 @@ trabalhadores.s: trabalhadores.cpp.s
 trabalhadores.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/trabalhadores.cpp.s
 .PHONY : trabalhadores.cpp.s
-
-utils.obj: utils.cpp.obj
-.PHONY : utils.obj
-
-# target to build an object file
-utils.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/utils.cpp.obj
-.PHONY : utils.cpp.obj
-
-utils.i: utils.cpp.i
-.PHONY : utils.i
-
-# target to preprocess a source file
-utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/utils.cpp.i
-.PHONY : utils.cpp.i
-
-utils.s: utils.cpp.s
-.PHONY : utils.s
-
-# target to generate assembly for a file
-utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho_POO.dir\build.make CMakeFiles/trabalho_POO.dir/utils.cpp.s
-.PHONY : utils.cpp.s
 
 zonas.obj: zonas.cpp.obj
 .PHONY : zonas.obj
@@ -314,15 +266,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... menus.obj
-	@echo ... menus.i
-	@echo ... menus.s
 	@echo ... trabalhadores.obj
 	@echo ... trabalhadores.i
 	@echo ... trabalhadores.s
-	@echo ... utils.obj
-	@echo ... utils.i
-	@echo ... utils.s
 	@echo ... zonas.obj
 	@echo ... zonas.i
 	@echo ... zonas.s

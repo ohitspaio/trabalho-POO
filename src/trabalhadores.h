@@ -9,9 +9,10 @@
 using namespace std;
 class Trabalhador{
 private:
-    string Emprego;
+    string emprego;
     int salario;
 public:
+    Trabalhador(){};
     string getSigla();
 };
 

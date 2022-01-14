@@ -1,14 +1,29 @@
 //
 // Created by Utilizador on 11/01/2022.
 //
-#include "libs.h"
+
 #include "ilha.h"
+
 
 using namespace std;
 
+int Ilha::getColuna() const{
+    return colunas;
+}
+
+int Ilha::getLinha() const{
+    return linhas;
+}
+
+Zona** Ilha::getZona() const{
+    return zonas;
+}
+
 void Ilha::geraIlha(){
-    srand(time(NULL));
-    int l, c;
+   // srand(time(0));
+    default_random_engine rEngine;
+    uniform_int_distribution<int> distribution(1,6);
+    int l, c, zonaRandomizer;
     string zonaRandom;
     cout << "Introduza o numero de linhas. \n";
     cin >> l;
@@ -23,17 +38,19 @@ void Ilha::geraIlha(){
 
     for(int i = 0; i < linhas; i++){
         for(int j = 0; j < colunas; j++){
-            int zonaRandomizer = rand() % 6 + 1;
+         zonaRandomizer = distribution(rEngine);
             switch(zonaRandomizer){
                 case 1:
                 {
                     zonaRandom = "mnt";
                     zonas[i][j].setZona(zonaRandom);
+
                 }
                 case 2:
                 {
                     zonaRandom = "dsr";
                     zonas[i][j].setZona(zonaRandom);
+
                 }
                 case 3:
                 {
@@ -57,7 +74,7 @@ void Ilha::geraIlha(){
                 }
                 default:
                 {
-                    cout<<"a atribuição de tipos de zona às zonas falhou";
+                    cout << zonaRandomizer;
                 }
             }
 
@@ -82,11 +99,12 @@ void Ilha::mostraIlha(Zona **zonas, int linhas, int colunas){
                 else if (z == 1) {
                     string edificio = zonas[i][k].getEdificio();
                     string edificioTemp;
-                    if (edificio == "minaf") edificioTemp = "mnF";
-                    else if (edificio == "minac") edificioTemp = "mnC";
-                    else if (edificio == "central") edificioTemp = "ele";
-                    else if (edificio == "bat") edificioTemp = "bat";
-                    else if (edificio == "fund") edificioTemp = "fun";
+                    if (edificio == "minaf") edificioTemp = "mnF ";
+                    else if (edificio == "minac") edificioTemp = "mnC ";
+                    else if (edificio == "central") edificioTemp = "ele ";
+                    else if (edificio == "bat") edificioTemp = "bat ";
+                    else if (edificio == "fund") edificioTemp = "fun ";
+                    else if (edificio == "nulo") edificioTemp = "    ";
                     cout << "|" << edificioTemp;
                 } else if (z == 2) cout << "|" << zonas[i][k].getSiglaTrabalhadores();
                 else if (z == 3) cout << "|" << zonas[i][k].getNrTrabalhadores();
@@ -94,10 +112,11 @@ void Ilha::mostraIlha(Zona **zonas, int linhas, int colunas){
                 if (k == (colunas - 1)) {
                     cout << "|";
                 }
-                cout << endl;
+
 
             }
         }
+
         for(int j = 0; j < colunas; j++){
             cout << "*-------";
             if(j == (colunas - 1)){
